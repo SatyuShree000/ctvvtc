@@ -37,13 +37,13 @@ Bot created by @shreevish
 
 **🧰 Framework:** Pyrogram
 
-**👨‍💻 Developer:** [Anonymous](https://t.me/shreevish)
+**👨‍💻 Developer:** [꧁★HACKER★꧂](https://t.me/shreevish)
 
-**📮 Channel:** [NS BOT UPDATES](https://t.me/All_Movie_Rockers)
+**📮 Channel:** [All Movie Rockers](https://t.me/All_Movie_Rockers)
 
-**👥 Group:** [NS BOT SUPPOTERS](https://t.me/allmovierockersdisscussion)
+**👥 Group:** [All Movie Rockers Disscussion](https://t.me/allmovierockersdisscussion)
 
-**💻 Source Code:**[Press Me]()
+**💻 Source Code:**[Contact Me](https://t.me/shreevish)
 
 """
 
@@ -70,7 +70,7 @@ ETA 🕰: {4}
       DOWNLOAD_START = "Trying to Download 📥"
       DOWNLOAD_COMPLETE = "✅ Media Downloaded successfully\nPreparing for upload"
       UPLOAD_START = "Trying to Upload 📤"
-      UPLOAD_COMPLETE = "THANKS FOR USING ME"
+      UPLOAD_COMPLETE = "THANKS FOR USING ME \n Sponsered By :- @All_Movie_Rockers"
       SAVED_CUSTOM_THUMB_NAIL = "✅ Saved Thumbnail Successfully. This will be deleted in 24hrs"
       BANNED_TEXT = "YOU ARE BANNED. SO YOUR ARE NOT ABLE TO USE ME 🐒"
       REPLY_TEXT = "👩‍✈️ Reply to the media which you need to convert"
