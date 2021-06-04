@@ -11,7 +11,7 @@ from translation import Translation
 from Tools.Download import download
 
 my_father = "https://t.me/{}".format(Config.USER_NAME[1:])
-support = "https://telegram.dog/Ns_Bot_supporters"
+support = "https://telegram.dog/All_Movie_Rockers"
 @Client.on_message(filters.command(["start"]))
 async def start(c, m):
 
@@ -41,7 +41,7 @@ async def about(c, m):
                          reply_to_message_id=m.message_id,
                          parse_mode="markdown")
 
-@Client.on_message(filters.command(["converttovideo"]))
+@Client.on_message(filters.command(["c2v"]))
 async def video(c, m):
   if m.from_user.id in Config.BANNED_USER:
       await c.send_message(chat_id=m.chat.id, text=Translation.BANNED_TEXT)
@@ -51,7 +51,7 @@ async def video(c, m):
     else:
        await c.send_message(chat_id=m.chat.id, text=Translation.REPLY_TEXT)
 
-@Client.on_message(filters.command(["converttofile"]))
+@Client.on_message(filters.command(["c2d"]))
 async def file(c, m):
   if m.from_user.id in Config.BANNED_USER:
       await c.send_message(chat_id=m.chat.id, text=Translation.BANNED_TEXT)
