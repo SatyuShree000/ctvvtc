@@ -22,7 +22,7 @@ async def start(c, m):
 
 
 
-@Client.on_message(Filters.command(["help"]))
+@Client.on_message(filters.command(["help"]))
 async def help(c, m):
 
     await c.send_message(chat_id=m.chat.id,
@@ -31,7 +31,7 @@ async def help(c, m):
                          parse_mode="markdown")
 
 
-@Client.on_message(Filters.command(["about"]))
+@Client.on_message(filters.command(["about"]))
 async def about(c, m):
 
     await c.send_message(chat_id=m.chat.id,
@@ -40,7 +40,7 @@ async def about(c, m):
                          reply_to_message_id=m.message_id,
                          parse_mode="markdown")
 
-@Client.on_message(Filters.command(["converttovideo"]))
+@Client.on_message(filters.command(["converttovideo"]))
 async def video(c, m):
   if m.from_user.id in Config.BANNED_USER:
       await c.send_message(chat_id=m.chat.id, text=Translation.BANNED_TEXT)
@@ -50,7 +50,7 @@ async def video(c, m):
     else:
        await c.send_message(chat_id=m.chat.id, text=Translation.REPLY_TEXT)
 
-@Client.on_message(Filters.command(["converttofile"]))
+@Client.on_message(filters.command(["converttofile"]))
 async def file(c, m):
   if m.from_user.id in Config.BANNED_USER:
       await c.send_message(chat_id=m.chat.id, text=Translation.BANNED_TEXT)
