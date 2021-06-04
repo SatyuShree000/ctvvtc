@@ -3,11 +3,16 @@ class Translation(object):
 
 #This will be appeared when anyone use start command
 
-      START = """Hello {0}
-
-I am a converter clone of [Convert Ns Bot](https://telegram.dog/convert_Ns_bot) by {1}
-
-I can convert file to video or video to file with custom thumbnail support.
+      START = """Hello,
+I am Telegram File-To-Video Converter Bot! Created by @shreevish
+         Supporting Channel : @allmovierockers
+Please send me any direct download URL Link, i can upload to telegram as File/Video
+ 🚨 . . . NB: its support almost all kind of video files like mp4,mkv..... except shortened videos & some formats . . . 🚨
+ 
+🚨 PRON video🔞 gives you PERMANENT BAN 🚨
+       ┈┈┈••💙✿❤️✿💚••┈┈┈
+       
+Bot created by @shreevish
 """
 
 
@@ -22,8 +27,6 @@ I can convert file to video or video to file with custom thumbnail support.
 3. Reply to video /converttofile for converting into file.
 
 4. Reply to file /converttovideo for converting into video.
-
-**SUPPORT GROUP:** [NS Bot Supporters](https://telegram.dog/Ns_Bot_supporters)
 """
 
 
@@ -34,13 +37,13 @@ I can convert file to video or video to file with custom thumbnail support.
 
 **🧰 Framework:** Pyrogram
 
-**👨‍💻 Developer:** [Anonymous](https://t.me/Ns_AnoNymouS)
+**👨‍💻 Developer:** [Anonymous](https://t.me/shreevish)
 
-**📮 Channel:** [NS BOT UPDATES](https://t.me/Ns_bot_updates)
+**📮 Channel:** [NS BOT UPDATES](https://t.me/All_Movie_Rockers)
 
-**👥 Group:** [NS BOT SUPPOTERS](https://t.me/Ns_Bot_supporters)
+**👥 Group:** [NS BOT SUPPOTERS](https://t.me/allmovierockersdisscussion)
 
-**💻 Source Code:**[Press Me](https://github.com/Ns-AnoNymouS/TG-CONVERT-BOT)
+**💻 Source Code:**[Press Me]()
 
 """
 
