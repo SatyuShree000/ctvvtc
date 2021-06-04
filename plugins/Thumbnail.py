@@ -15,7 +15,7 @@ import pyrogram
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 from pyrogram import Client, Filters 
 
-@Client.on_message(Filters.photo)
+@Client.on_message(filters.photo)
 async def save_photo(bot, update):
     if update.from_user.id in Config.BANNED_USER:
         await bot.delete_messages(
@@ -48,7 +48,7 @@ async def save_photo(bot, update):
         )
 
 
-@Client.on_message(Filters.command(["deletethumbnail"]))
+@Client.on_message(filters.command(["deletethumbnail"]))
 async def delete_thumbnail(bot, update):
     if update.from_user.id in Config.BANNED_USER:
         await bot.delete_messages(
