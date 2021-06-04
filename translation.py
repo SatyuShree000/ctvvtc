@@ -5,7 +5,7 @@ class Translation(object):
 
       START = """Hello,
 I am Telegram File-To-Video Converter Bot! Created by @shreevish
-         Supporting Channel : @allmovierockers
+         Supporting Channel : @All_Movie_Rockers
 Please send me any direct download URL Link, i can upload to telegram as File/Video
  🚨 . . . NB: its support almost all kind of video files like mp4,mkv..... except shortened videos & some formats . . . 🚨
  
